@@ -1,0 +1,170 @@
+html{
+    background-color:#7FA1C3;
+}
+.container{
+    background-color: #F6F4F5;
+    width:80em;
+    height:auto;
+
+    border-radius: 23px;
+    padding: 14px;
+    margin: 15px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+   
+}
+
+li{
+    display: flex;
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    font-variation-settings:
+      "wdth" 100;
+   
+}
+.Name{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 25px;
+   color:#16325B;
+ 
+    
+}
+.btn{
+    padding: 12px;
+    border-radius: 18px;
+    background-color:#2E5077 ;
+    color:#F6F4F5;
+    border:none;
+    cursor: pointer;
+    margin-top: -7px;
+}
+.pricing {
+    opacity: 0.5;
+    font-weight: 400;
+    margin-left: -100px;
+    
+}
+.services{
+    opacity: 0.5;
+    font-weight: 400;
+    margin-left: -100px;
+}
+.blog{
+    opacity: 0.5;
+    font-weight: 400;
+    margin-left: -100px;
+}
+
+.login{
+    opacity: 0.5;
+    font-weight: 400;
+ 
+}
+.home{
+    border-bottom: 3px solid #7FA1C3;
+}
+.heading{
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style:italic;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.faq-item {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  width:40em;
+  margin-left: 25%;
+}
+.paragraph{
+  
+    opacity: 0.6;
+}
+
+.faq-question{
+    border:none;outline: none;
+   font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(67, 133, 133);
+    background: transparent;
+    font-size: medium;
+   
+    cursor: pointer;
+
+}
+#plus{
+    margin-left: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.bx.bx-plus{
+    margin-top: -1px;
+}
+.faq-answer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.7;
+    transition: opacity 3s;
+    display: none;
+    animation: fadeIn 1s ;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 0.6;
+    }
+}
+.footer{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 30%;
+    justify-content: center;
+}
+.last{
+    margin-left: 160px;
+    font-weight: bold;
+    color:#55679C;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.more{
+    flex-wrap: wrap;
+    opacity: 0.6;
+    width:500px;
+}
+img{
+    width:13px;
+    height:13px;
+    
+
+}
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   
+   
+    padding: 10px;
+font-size: 3em;
+    border: none;
+    display: none;
+    outline: none;
+    border-radius: 3cm;
+    cursor: pointer;
+   
+}
+  
